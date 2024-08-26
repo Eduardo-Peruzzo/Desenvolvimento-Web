@@ -1,0 +1,14 @@
+body {
+    background-color: aqua;
+}
+
+main {
+    background-color: white;
+    margin: auto;
+    width: 50vw;
+    height: 50vh;
+}
+
+button {
+    color: blueviolet;
+}

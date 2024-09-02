@@ -1,12 +1,14 @@
 <!DOCTYPE html>
 <html lang="pt-br">
+
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Aula 3</title>
 </head>
+
 <body>
-    <h1>Cabeçalho principal</h1>
+    <h1 id="h1-unico">Cabeçalho principal</h1>
     <p>O cabeçalho <span>feito usando a tag h1</span> é o principal e o maior. Temos os cabeçalhos:</p>
     <ol>
         <li>h1</li>
@@ -17,7 +19,7 @@
         <li>h6</li>
     </ol>
     <h2>Cabeçalho 2</h2>
-    <p>Exemplo de cabeçalho h2</p>
+    <p><strong>Exemplo de cabeçalho h2</strong></p>
     <menu>
         <li>Item do menu</li>
         <li>Mais um item do menu</li>
@@ -29,12 +31,36 @@
     </ul>
     <div>
         <h4>Cabeçalho 4</h4>
-        <p>Esse cabeçalho foi colocado dentro de uma div</p>
+        <p><em>Esse cabeçalho foi colocado dentro de uma div</em></p>
 
         <h5>Cabeçalho 5</h5>
-        <p>Esse cabeçalho também foi colocado dentro de uma div</p>
+        <p><ins>Esse cabeçalho também foi colocado dentro de uma div</ins></p>
     </div>
     <h6>Cabeçalho 6 (final)</h6>
     <p>Último cabeçalho</p>
+
+    <form method="get">
+        <label>Nome:
+            <input type="text" name="nome">
+            <input type="submit">
+        </label>
+    </form>
+    <form method="post">
+        <label>Nome:
+            <input type="text" name="nome">
+            <input type="submit">
+        </label>
+    </form>
+
+    <a href="../aula-1/index.html" target="_blank">Outra página</a>
+    <br>
+    <a href="#h1-unico">H1 do site</a>
+    <br>
+    <img src="../aula-2/image.png" alt="imagem da aula 2" width="500">
+    <br>
+    <audio controls src="light-my-fire.mp3"></audio>
+    <br>
+    <video src="doguinho.mp4" controls width="500"></video>
 </body>
+
 </html>

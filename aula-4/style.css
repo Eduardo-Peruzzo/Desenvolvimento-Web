@@ -1,0 +1,55 @@
+div.cabecalho-1 {
+    position: relative;
+    background: rgb(16, 0, 36);
+    background: linear-gradient(270deg, rgba(16, 0, 36, 1) 0%, rgba(110, 9, 121, 1) 20%, rgba(236, 255, 0, 1) 94%);
+    width: 500px;
+    padding: 5px;
+    border: 10px;
+    border-style: solid;
+    border-color: black;
+}
+
+.banana {
+    position: absolute;
+    max-width: 300px;
+    width: auto;
+    height: auto;
+    max-height: 300px;
+    left: 35%;
+    top: 40%;
+}
+
+ol {
+    width: 100px;
+}
+
+div.cabecalho-4 {
+    background-color: aqua;
+    width: 50vw;
+    padding: 5px;
+    border: 10px;
+    border-style: solid;
+    border-color: black;
+}
+
+#h1-unico {
+    font-size: 3em;
+}
+
+p {
+    font-family: "Bitter", serif;
+}
+
+span {
+    background-color: aqua;
+    color: red;
+    font-weight: bold;
+}
+
+h1 {
+    margin: auto;
+}
+
+h4 {
+    margin: auto;
+}

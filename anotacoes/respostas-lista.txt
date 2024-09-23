@@ -13,4 +13,46 @@ tag = palavra chave da linguagem e indica o início e fim de um elemento
 	</body>
 </html>
 
-6) 
+6) É uma organização abstrata dos protocolos da internet, organizados em camadas (de acordo com os diferentes níveis de absdtração) de forma que a camada de baixo (mais concreta) presta um serviço para a de cima (mais abstrata)
+
+7) TCP e UDP. O TCP tem o transporte de dados confiável, já o UDP não. O TCP é orientado à conexão, já o UDP não.
+
+8) O servidor está sempre no ar, fornece serviço para os clientes (que não se comunicam entre si), o IP tem que ser conhecido. No peer-to-peer não tem um servidor central, e os clientes (peers) se comunicam entre si, prestando e consumindo serviços (o cliente é um servidor).
+
+9) Processo é um programa rodando em um nó da rede (computador que está ligado na rede). São identificados pelo IP e pelo número da porta.
+
+10) SSL = Secure Sockets Layer, é uma camada de segurança que usamos para proteger conexões TCP.
+
+11) 2 filhos, head e body. Não existe limite de descendentes do nó raiz. Apesar de existir uma limitação de dois filhos do nó raiz, os descendentes desses dois são virutalmente ilimitados.
+
+12) Tags de organização:
+<h>5r
+
+13) form 
+
+14) a 
+
+15) input, button, label, select, progress
+
+16) class = determina um conjunto(s) ao qual um elemento pertence
+id = identificação unívoca de um elemento
+name = nome que vai estar atribuido a um valor de controle (um elemento de formulário) de um formulário, ou para adicionar uma informação adicional a algum elemento
+hidden = esconder uma informação que o usuário não precisa
+style = colocar o css dentro de um elemento, com alta prioridade
+title = uma informação adicional sobre um elemento
+
+17) Estar preparado para perder elementos mas não porder o sentido. É tanto uma caracterísitica da web quanto uma filosofia.
+
+18) declaração é um par chave-valor, separado por :, seletor é um símbolo ou conjunto de símbolos que definme os elementos nos quais a regra será aplicada, e a regra é a estrutura composta pelo seletor e por um conjunto de declarações, envolvidas por chaves e separadas por ;.
+
+19) Seletor de classe referencia todos os elementos de uma determinada classe, e o do id referencia um elemento com o id especificado. Seletores de classe são do tipo ".minha-classe" e os de id são "#meu-id"
+
+20) Margin é o espaço em volta do elemento, o espaço externo dele. Border é uma linha no entorno do elemento, e padding é o espaço entre o conteúdo do elemento e a borda.
+
+21) static é posicionamento padrão, relative possibilita mover um elemento em relação à sua posição original e se sobrepor a outros elementos mas mantém o espaço original do elemento reservado, absolute retira o elemento do fluxo normal e o movimenta em relação ao ascendente mais próximo com position relative, fixed deixa o elemento fixo em relação à viewport.
+
+22) São definidos com o uso de chaves.
+
+23) var é escopo de função, let e const são escopo de bloco, e com o const não pode mudar o valor da varíavel.
+
+Referência: https://developer.mozilla.org/en-US/docs/Web/HTML/Element

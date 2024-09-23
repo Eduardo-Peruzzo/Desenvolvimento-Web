@@ -3,7 +3,7 @@ atributo = caracteriza um elemento
 tag = palavra chave da linguagem e indica o início e fim de um elemento
 
 5)
-<html>
+"<html>
 	<head>
 		<title>Minha página</title>
 		<meta charset="utf-8">
@@ -11,6 +11,6 @@ tag = palavra chave da linguagem e indica o início e fim de um elemento
 	<body>
 		<p>Estou por aqui</p>
 	</body>
-</html>
+</html>"
 
 6) 
